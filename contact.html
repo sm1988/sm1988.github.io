@@ -1,66 +1,135 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Page - Contact</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+
 </head>
 
-<body id="body">
+<body>
 
-    <!-- Starting header-->
-    <div class="header">
-
-        <div class="empty">
-        </div>
-        <div class="content">
-            <h3>Shishir Mishra</h3>
-            <ul>
-                <li><a class="active" href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="empty">
-        </div>
-    </div>
-
-    <!--Starting content area-->
-    <div class="center">
-        <h1>Portfolio</h1>
-        <hr>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <h1>Contact</h1>
-            <hr>
-            <form action="action_page.php">
-
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
-
-            </form>
+            <a class="navbar-brand" href="#">Shishir Mishra</a>
+            <li class="nav-item">
+                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/shishir-mishra1/">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+            </li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!--Closing content area-->
-    </div>
+    </nav>
 
-    <!-- Starting Footer -->
-    <div class="footer">
-        <p>© 2020 Shishir Mishra </p>
-    </div>
-    <!-- Closing Footer -->
+    <!-- Page Content -->
+    <div class="container">
 
+        <!-- Jumbotron Header -->
+        <header class="jumbotron my-4 bg-secondary">
+            <h1 class="text-white">Contact</h1>
+        </header>
+
+        <!-- Page Features -->
+        <div class="row text-center">
+            <div class="col-lg-6 col-md-6 mb-4">
+
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    </ol>
+                </nav>
+                <form>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">First Name</span>
+                            </div>
+                            <input type="text" aria-label="First name" class="form-control">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Last Name</span>
+                            </div>
+                            <input type="text" aria-label="Last name" class="form-control">
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Email Address</span>
+                            </div>
+                            <input type="text" aria-label="First name" class="form-control">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Your Message</span>
+                            </div>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit Form</button>
+                </form>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 mb-4">
+                <img src="https://source.unsplash.com/HgcdpLIa5jo/500x400">
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Shishir Mishra 2020</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

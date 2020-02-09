@@ -1,80 +1,146 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>My Page</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/heroic-features.css" rel="stylesheet">
+  <link href="css/bootstrap-social.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 
-<body id="body">
+<body>
 
-    <!-- Starting header-->
-    <div class="header">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shishir Mishra</a>
+      <li class="nav-item">
+        <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/shishir-mishra1/">
+          <span class="fa fa-linkedin"></span>
+        </a>
+      </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
 
-        <div class="empty">
-        </div>
-        <div class="content">
-            <h3>Shishir Mishra</h3>
-            <ul>
-                <li><a class="active" href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="empty">
-        </div>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <!--Starting content area-->
-    <div class="center">
-        <h1>Portfolio</h1>
-        <hr>
-        <div class="container">
-            <h1>About Me</h1>
-            <hr>
-            <div id="about">
-                <div class="pic">
-                    <img id="image" src="images/pic.png">
-                </div>
-                <div class="text">
-                    <p class="about">My name is Shishir Mishra. I am from India. I am a Network Software Engineer at
-                        Apple. Here, I am going to tell you little bit about my background, interests, achievements and
-                        my goals.
-                    </p>
-                    <b>Background</b> <br><br>
-                    <p>I was born in a small town in northern India. I earned my Bachelor's degree in Computer
-                        Applications in 2009. After graduating, I started working in one of the major IT consulting
-                        firms in India
-                        called TCS. I came to the US in 2014 and started working for Apple in San Francisco Bay Area.
-                    </p>
-                    <p></p>
-                    <b> Interests</b>
-                    <p>I have a lot of hobbies or I can say I am a passionate person for lot of things mostly
-                        Photography, organic farming, camping etc. Check out my <a href="portfolio.html">Portfolio</a>
-                        to see my work.</p>
-                    <b>Goals</b>
-                    <p>I would like to own a tech startup which will enable farmers worldwide to earn a better
-                        livelihood and promote sustainable development. </p>
-                    <p>P.S. That's my 6 months old son in the picture; his name is <b>Vedant</b>. </p>
+  <!-- Page Content -->
+  <div class="container">
 
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+      <h1 class="display-3">World Of Code!</h1>
+      <p class="lead">Thanks for visiting my world of code. You can easily find my past, current and future projects here.
+        Contact me if you have any questions. <hr></p> 
+        <p> Welcome to my page!</p>
 
-                </div>
-            </div>
+      <a href="assets/files/ShishirMishraResume.pdf" class="btn btn-primary btn-lg" download>Download My Resume</a>
+    </header>
 
+    <!-- Page Features -->
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://source.unsplash.com/vrbZVyX2k4I/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Open Farm</h4>
+            <p class="card-text">Open Farm is a community driven web app for the urben farmers. Its leveraging technology to address some basic but necessary issues.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn btn-primary">Find Out More!</a>
+          </div>
         </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://source.unsplash.com/8eId7mS_FCY/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Train Scheduler</h4>
+            <p class="card-text">Another excellent web-app to provide lightening fast APIs for train related queries.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://source.unsplash.com/5Oycxk7u_ZQ/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Psychic Games</h4>
+            <p class="card-text">Challenge you mind! Guess a word and win the game by beating the computer 6 out of 10 times.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://source.unsplash.com/Fz98aWGScfA/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Crystal Game</h4>
+            <p class="card-text">Play to win some amazing looking crystals. You will be amazed to play in a brand new dark-mode.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/sm1988/unit-4-game" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
     </div>
+    <!-- /.row -->
 
+  </div>
+  <!-- /.container -->
 
-    <!-- Starting Footer -->
-    <div class="footer">
-        <p> copyright © 2020 Shishir Mishra </p>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Shishir Mishra 2020</p>
     </div>
-    <!-- Closing Footer -->
+    <!-- /.container -->
+  </footer>
 
-    <!-- Closing Wrapper -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
